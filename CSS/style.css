@@ -1,0 +1,147 @@
+img{
+	max-width: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+header{box-shadow: 0px 7px 13px 1px #1715151a;/* width: 750px; *//* margin: auto; */padding: 10px;}
+.wrapper{
+    margin: auto;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.logo img{}
+
+.nav{
+    width: 70%;
+    float: left;
+}
+.nav ul{
+    /* display: inline-block; */
+    margin: 0;
+    /* padding: 8px; */
+    /* display: inline-block; */
+    text-align: right;
+    padding: 0;
+}
+.nav ul li{
+    list-style: none;
+    /* float: right; */
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 17px;
+    color: rgb(59, 80, 108);
+    /* margin: 1px; */
+}
+
+.nav ul li a:hover{
+color: #0C66FF
+}
+
+section{}
+.about-section{
+    text-align: center;
+    padding: 50px 0;
+}
+.about-section h1{
+    font-size: 95px;
+    color: rgb(59, 80, 108);
+    margin: 0px;
+}
+.about-section h1 span{
+    color: rgb(12, 102, 255);
+    text-transform: capitalize;
+}
+.about-section p{
+    color: rgb(59, 80, 108);
+    margin:0;
+}
+
+section img{
+    margin: auto;
+    display: block;
+    max-width: 500px;
+}
+
+.feature-section{
+    padding: 50px 0;
+}
+.column{
+    width: 50%;
+    float: left;
+}
+.feature h2 span{
+    color: #F15565;
+}
+.feature p{
+	color: rgb(59, 80, 108);
+    margin:0;
+}
+.feature h2{
+    font-size: 46px;
+    margin: 0;
+    color: #3F3D56;
+    /* color: #F15565; */
+}
+
+.align-right{
+	
+text-align: right;
+	
+/*padding: 0 69px;
+*/}
+
+
+.feature{
+	
+padding: 25px;
+}
+
+.blog-section{
+    padding: 100px;
+}
+.col{
+    width: 33.33%;
+    float: left;
+    /* margin: -162px; */
+    padding: 10px;
+    box-sizing: border-box;
+    /* background-color: #EBF9F4; */
+}
+.blog{
+    background-color: #EBF9F4;
+    padding: 23px;
+    box-shadow: 3px 5px 2px 3px #17151517;
+    border-radius: 10px;
+}
+.blog img{
+    width: 300px;
+    height: 300px;
+}
+.blog h3{
+    color: rgb(59, 80, 108);
+    font-size: 24px;
+    margin: 0px;
+}
+.blog p{color: rgb(59, 80, 108);margin: 6px;}
+.red{
+    background-color: #FDEBED;
+}
+.green{
+    background-color: #EBF9F4;
+}
+.yellow{
+    background-color: #FFF7E8;
+}
